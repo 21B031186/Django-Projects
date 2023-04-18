@@ -5,6 +5,7 @@ class Company(models.Model):
     description = models.TextField()
     city = models.CharField(max_length=50)
     address = models.TextField()
+    test = models.TextField(null=True)
 
 
     def __str__(self) ->str:
